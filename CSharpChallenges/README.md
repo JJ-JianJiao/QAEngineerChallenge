@@ -8,7 +8,7 @@
 
 3.Open FindFewestRepeatedNum.sln
 
-4.Copy Folder "src" to QAEngineerChallenge/CSharpChallenges/FindFewestRepeatedNum/bin/Debug/netcoreapp3.1/ **(The src already in this folder)**
+4.Copy Folder "src" to your address: ../QAEngineerChallenge/CSharpChallenges/FindFewestRepeatedNum/bin/Debug/netcoreapp3.1/ **(The src already in this folder)**
 
 5.Run the Project
 
