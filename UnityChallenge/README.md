@@ -2,7 +2,7 @@
 
 ### UnityChallenge
 
-1.clone the whole project into you machine
+1.clone the whole project into your machine
 
 2.Open Unity Hub
 
@@ -10,7 +10,7 @@
 
 4.Open TrashDash Project
 
-5.In Project Window, Go to Scenes folder and open Main scene.
+5.In Project Window, Go to the Scenes folder and open Main scene.
 
 6.Hit the Play button and run the game.
 
