@@ -1,5 +1,5 @@
 # QAEngineerChallenge
-
+---------------------------------------------------------------------------------------------------------------------------------------------
 ### C# Challenge
 
 1. Create a C# script that can open up a text file (files can be found in **src** folder), and tell us the number that has repeated the fewest number of times. Each number is on it's own line and is an integer.
