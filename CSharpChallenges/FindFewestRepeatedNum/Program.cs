@@ -18,11 +18,13 @@ namespace FindFewestRepeatedNum
             if (ValidationFileNames(fileNames)) {
                 TraverseFiles(fileNames);
             }
+            Console.ReadLine();
         }
 
         /// <summary>
-        /// 
+        /// Returns a string List of all the *.txt file's names under the specified folder
         /// </summary>
+        /// <param name="folderPath">The path of the specified folder.</param>
         private static List<string> GetAllFileNames(string folderPath)
         {
             List<string> fileNameList = new List<string>();
@@ -40,6 +42,11 @@ namespace FindFewestRepeatedNum
             return fileNameList;
         }
 
+        /// <summary>
+        /// validate the List of file names
+        /// </summary>
+        /// <param name="fileNames">the string list of file names</param>
+        /// <returns>A boolean value, True means is valid, False means is invalid.</returns>
         private static bool ValidationFileNames(List<string> fileNames)
         {
             if (fileNames == null)
@@ -55,6 +62,10 @@ namespace FindFewestRepeatedNum
             return true;
         }
 
+        /// <summary>
+        /// Travers all files and get the results.
+        /// </summary>
+        /// <param name="fileNames">the List of file names</param>
         private static void TraverseFiles(List<string> fileNames)
         {
             for (int i = 0; i < fileNames.Count; i++)
@@ -65,13 +76,23 @@ namespace FindFewestRepeatedNum
             }
         }
 
-
+        /// <summary>
+        /// Get all data of the specified txt file
+        /// </summary>
+        /// <param name="filePath">The path of the specified file.</param>
+        /// <returns>A string arry, Each line of the file is an element of the array</returns>
         private static string[] ReadFile(string filePath) { 
             string[] numsStr = File.ReadAllLines(filePath);
             return numsStr;
         }
 
-
+        /// <summary>
+        /// print out the result of the fewest repeated number of times for the specified txt file
+        /// Format is: 1: File: 1.txt, Number: 32, Repetead: 3 times
+        /// </summary>
+        /// <param name="index">the index of the txt file</param>
+        /// <param name="fileName">the name of the txt file</param>
+        /// <param name="numsStr">A string arry, Each line of the file is an element of the array</param>
         private static void GetFewestRepeatedNumberRes(int index, string fileName, string[] numsStr)
         {
             Dictionary<string, int> dict = new Dictionary<string, int>();
