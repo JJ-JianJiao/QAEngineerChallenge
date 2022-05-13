@@ -4,7 +4,7 @@
 
 ## The instruction of Unity Challenge is in README.md file which can be found in UnityChallenge folder.
 
-## The PDF document of Trash Dash gameplay test cases can be found in UnityChallenge folder.
+## The PDF document of Trash Dash gameplay test cases can be found in UnityChallenge folder. The file name is "JianJiao_TestCases_TrashDash.pdf".
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
