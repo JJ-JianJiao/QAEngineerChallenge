@@ -2,7 +2,7 @@
 
 ### C# Challenge
 
-1.clone the whole project into you machine
+1.clone the whole project to you machine
 
 2.go to QAEngineerChallenge/CSharpChallenges/FindFewestRepeatedNum/
 
