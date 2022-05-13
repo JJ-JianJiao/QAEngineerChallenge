@@ -10,7 +10,7 @@
 
 4.Open TrashDash Project
 
-5.In Project Window, Go to the Scenes folder and open Main scene.
+5.In Project Window, Go to the Scenes folder and open the "Main" scene.
 
 6.Hit the Play button and run the game.
 
