@@ -16,8 +16,8 @@
 1.Open Program.cs
 
 2.Change the Line 10:
-  static string FILE_FOLDER_PATH = Directory.GetCurrentDirectory() + "\\src\\"; 
+  * *static string FILE_FOLDER_PATH = Directory.GetCurrentDirectory() + "\\src\\"; 
   to
-  static string FILE_FOLDER_PATH = Directory.GetCurrentDirectory() + "/src/";
+  * *static string FILE_FOLDER_PATH = Directory.GetCurrentDirectory() + "/src/";
 
 3.Then, you can run the project
