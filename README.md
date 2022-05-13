@@ -1,10 +1,10 @@
 # QAEngineerChallenge
 
-### 1. The instruction of C# Challenge is in README.md file which can be found in CSharpChallenges folder.
+### 1. The instruction for C# Challenge is in the README.md file in the CSharpChallenges folder.
 
-### 2. The instruction of Unity Challenge is in README.md file which can be found in UnityChallenge folder.
+### 2. The instruction for Unity Challenge is in the README.md file in the UnityChallenge folder.
 
-### 3. The PDF document of Trash Dash gameplay test cases can be found in UnityChallenge folder. The file name is "JianJiao_TestCases_TrashDash.pdf".
+### 3. The PDF document of gameplay test cases is in the UnityChallenge folder. The file name is "JianJiao_TestCases_TrashDash.pdf."
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
